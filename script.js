@@ -1,7 +1,7 @@
 "use strict";
 
-let num = 5;
-const leftBorder= 15;
+ let num = 5;
+// const leftBorder= 15;
 
 num = 5+10;
 console.log(num);
