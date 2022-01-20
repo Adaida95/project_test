@@ -14,7 +14,7 @@ alert(con);
 let pro = prompt('Вам есть 18?');
 console.log(pro);
 
-//фукнции
+//-----------------фукнции ---------------------
 
 //1
 let a = 5;
@@ -69,4 +69,27 @@ function createCounter() {
  const calc = (a, b) => a+b;
  console.log (calc (7,3));	
 
- 
+ //--------------------------------------
+ console.log("QwErT".toLowerCase() );
+ //--------------------------------------
+
+
+//-----------------Callback---------------
+
+function learnJS(lang, callback) { 
+  console.log(`Я учу: ${lang}`);
+  callback();
+  
+}
+
+learnJS('JS', function() {
+  console.log("Ура");
+});
+
+//----------------------------------------
+let a1 = 5,
+    b1 = a1;
+
+b1 = b1+5;
+console.log(b1);
+console.log(a1);
