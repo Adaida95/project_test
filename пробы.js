@@ -93,3 +93,11 @@ let a1 = 5,
 b1 = b1+5;
 console.log(b1);
 console.log(a1);
+
+//---------------------
+const arr = [1,2,3,6,8];
+arr.forEach(function (item, i) {
+	//console.log (`${i+1}: ${item} внутри массива ${arr} `);
+  console.log (`Любимый жанр ${i+1} - это ${item}`);
+});
+
